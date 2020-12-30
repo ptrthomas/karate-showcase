@@ -14,7 +14,8 @@ String city = Json.of(users).get("$[0].address.city");
 assertEquals("Gwenborough", city);
 ```
 
-You can run this as a [jbang](https://www.jbang.dev) script as follows: `jbang javadsl.java`
+## jbang
+You can run the example below as a [jbang](https://www.jbang.dev) script as follows: `jbang javadsl.java`
 
 To reduce the console logging verbosity (and hide some scary looking but harmless stack-traces) add `logback.xml` to the root of the classpath. (you can add `--cp .`) to the CLI options.
 
