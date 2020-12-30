@@ -16,6 +16,8 @@ assertEquals("Gwenborough", city);
 
 You can run this as a [jbang](https://www.jbang.dev) script as follows: `jbang javadsl.java`
 
+To reduce the console logging verbosity (and hide some scary looking but harmless stack-traces) add `logback.xml` to the root of the classpath. (you can add `--cp .`) to the CLI options.
+
 You can also run this directly from github without creating this file locally:
 
 ```
