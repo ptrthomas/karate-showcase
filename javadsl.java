@@ -1,5 +1,6 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //DEPS com.intuit.karate:karate-core:0.9.9.RC2
+//FILES logback.xml
 
 import com.intuit.karate.*;
 import com.intuit.karate.match.Match;
