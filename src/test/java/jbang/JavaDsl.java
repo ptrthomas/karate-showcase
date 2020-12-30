@@ -16,6 +16,7 @@ public class JavaDsl {
         Match.that(users.get(0)).contains("{ name: 'Leanne Graham' }").isTrue();
         String city = Json.of(users).get("$[0].address.city");
         Match.that("Gwenborough").isEqualTo(city).isTrue();
+        System.out.println("\n*** second user: " + Json.of(users.get(1)).toString());
     }
 
 }
